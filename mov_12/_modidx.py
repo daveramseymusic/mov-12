@@ -6,4 +6,6 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/daveramseymusic/mov-12',
                 'lib_path': 'mov_12'},
   'syms': { 'mov_12.core': {'mov_12.core.foo': ('core.html#foo', 'mov_12/core.py')},
+            'mov_12.movie_recommender': { 'mov_12.movie_recommender.get_movie_recs': ( 'movie_recommender.html#get_movie_recs',
+                                                                                       'mov_12/movie_recommender.py')},
             'mov_12.nog': {'mov_12.nog.get_movie_recs': ('movie_rec_new_og.html#get_movie_recs', 'mov_12/nog.py')}}}

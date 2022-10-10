@@ -7,5 +7,6 @@ d = { 'settings': { 'branch': 'main',
                 'lib_path': 'mov_12'},
   'syms': { 'mov_12.core': {'mov_12.core.foo': ('core.html#foo', 'mov_12/core.py')},
             'mov_12.movie_recommender': { 'mov_12.movie_recommender.get_movie_recs': ( 'movie_recommender.html#get_movie_recs',
-                                                                                       'mov_12/movie_recommender.py')},
-            'mov_12.nog': {'mov_12.nog.get_movie_recs': ('movie_rec_new_og.html#get_movie_recs', 'mov_12/nog.py')}}}
+                                                                                       'mov_12/movie_recommender.py'),
+                                          'mov_12.movie_recommender.search_movies': ( 'movie_recommender.html#search_movies',
+                                                                                      'mov_12/movie_recommender.py')}}}

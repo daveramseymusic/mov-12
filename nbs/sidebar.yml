@@ -3,4 +3,4 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
-      - movie_rec_new_og.ipynb
+      - movie_recommender.ipynb

@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "mov-12"
+  site-url: "https://daveramseymusic.github.io/mov-12"
+  description: "trying movie time 12"
+  repo-branch: main
+  repo-url: "https://github.com/daveramseymusic/mov-12"

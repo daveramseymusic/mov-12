@@ -5,10 +5,10 @@ __all__ = ['get_movie_recs', 'search_movies']
 
 # %% ../nbs/movie_recommender.ipynb 10
 # For modeling
-# from fastai.tabular.all import *
-# from fastai.collab import *
+from fastai.tabular.all import *
 
-# %% ../nbs/movie_recommender.ipynb 14
+
+# %% ../nbs/movie_recommender.ipynb 15
 def get_movie_recs(full_title):
     "This function will use the `nn.CosineSimilarity` on the 50 latent factors for each movie to find the 30 movies most similar to your favorite movie."
     movie_factors = learn.model.i_weight.weight
@@ -17,7 +17,7 @@ def get_movie_recs(full_title):
     idx = distances.argsort(descending=True)
     return [o for o in dls.classes['title'][idx][:30]]
 
-# %% ../nbs/movie_recommender.ipynb 15
+# %% ../nbs/movie_recommender.ipynb 16
 def search_movies(favorite_movie):
     movies_found = ''
     s = favorite_movie.lower()

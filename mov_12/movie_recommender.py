@@ -3,6 +3,11 @@
 # %% auto 0
 __all__ = ['get_movie_recs', 'search_movies']
 
+# %% ../nbs/movie_recommender.ipynb 10
+# For modeling
+# from fastai.tabular.all import *
+# from fastai.collab import *
+
 # %% ../nbs/movie_recommender.ipynb 14
 def get_movie_recs(full_title):
     "This function will use the `nn.CosineSimilarity` on the 50 latent factors for each movie to find the 30 movies most similar to your favorite movie."
